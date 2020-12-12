@@ -1,0 +1,14 @@
+sudo apt install aircrack-ng
+sudo airmon-ng
+sudo airmon-ng start (your wifi name....my is wlan0)
+airodump-ng wlan0mon (or only wlan0)
+pick your network BSSID (copy)
+sudo airbase-ng -a (your BSSID) --essid "(vhoice name for wifi)" 1 wlan0 (or wlan0mon)
+
+
+
+
+
+check for new fake network ;)
+
+THANK ME LATER...................................
